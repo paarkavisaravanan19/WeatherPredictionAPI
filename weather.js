@@ -16,6 +16,7 @@ window.addEventListener("load",()=>{
                 console.log(dat.toLocaleString(undefined,'Asia/Kolkata'))
                 console.log(new Date().getMinutes())
                 weatherReport(data);
+                
             })
         })
     }
